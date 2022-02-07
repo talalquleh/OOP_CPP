@@ -1,5 +1,5 @@
 # OOP_CPP
-This repo is made to help teaching Object-oriented programming (OOP).<br/>
+This repo is made to help teaching Object-oriented programming (OOP)/Eötvös Loránd University.<br/>
 <h1>Course Requirements </h1>
 This subject will have:<br/>
 <ul>
