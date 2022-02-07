@@ -21,12 +21,13 @@ This subject will have:<br/>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
   <h3>Contacts</h3>
   Lecture and Practice Professor : <br/>
+  
   Teréz A. Várkonyi <br/>
   treszka@inf.elte.hu<br/>
   
   Practice Professors:<br/>
   Pinter Balazs<br/>
-  pinter@inf.elte.hu<br/>
+  pinter@inf.elte.hu <br/>
   BORSI Zsolt Richard<br/>
   bzsr@inf.elte.hu<br/>
   
