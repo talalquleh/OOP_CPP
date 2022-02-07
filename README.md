@@ -19,7 +19,7 @@ This subject will have:<br/>
   
   <h2>Classes</h2>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
-  <h3>Contacts</h3>
+  <h2>Contacts</h2>
   Lecture and Practice Professor : <br/>
   
   Teréz A. Várkonyi <br/>
