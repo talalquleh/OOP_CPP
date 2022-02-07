@@ -10,4 +10,4 @@ This subject will have:<br/>
   <li> 2 paper-based tests (one can be retaken), grading: 0-5,both paper-based tests has to be passed (at least mark 2) </li>
   <li>2 computer-based tests (one can be retaken), grading: 0-5,both computer-based tests has to be passed (at least mark 2)</li>
   </ul>
-  <b>final grade:</b> 2*sum of the first two assignments+third assignment+sum of the big tests) / 7
+  <strong>final grade:</strong> 2*sum of the first two assignments+third assignment+sum of the big tests) / 7
