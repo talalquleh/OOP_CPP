@@ -10,7 +10,7 @@ This subject will have:<br/>
   <li> 2 paper-based tests (one can be retaken), grading: 0-5,both paper-based tests has to be passed (at least mark 2) </li>
   <li>2 computer-based tests (one can be retaken), grading: 0-5,both computer-based tests has to be passed (at least mark 2)</li>
   </ul>
-  **final grade**: 2*sum of the first two assignments+third assignment+sum of the big tests) / 7 <br/>
+  Final grade: 2*sum of the first two assignments+third assignment+sum of the big tests) / 7 <br/>
   
   <h2>Classes</h2>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
