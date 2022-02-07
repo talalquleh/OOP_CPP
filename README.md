@@ -19,4 +19,34 @@ This subject will have:<br/>
   
   <h2>Classes</h2>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
+  <h3>Contacts</h3>
+  Lecture and Practice Professor : <br/>
+  Teréz A. Várkonyi <br/>
+  treszka@inf.elte.hu<br/>
+  
+  Practice Professors:<br/>
+  Pinter Balazs<br/>
+  pinter@inf.elte.hu<br/>
+  BORSI Zsolt Richard<br/>
+  bzsr@inf.elte.hu<br/>
+  
+  Lab Instructors : <br/>
+  Bhatti Shuaa<br/>
+  e63oyp@inf.elte.hu<br/>
+  Nazir Muhammad<br/>
+  bsvncs@inf.elte.hu<br/>
+   Quleh Talal<br/>
+  tbis1e@inf.elte.hu<br/>
+  Aldokimi Mohammed<br/>
+  eespb3@inf.elte.hu<br/>
+  Elalwany Aly<br/>
+  wgl13q@inf.elte.hu<br/>
+  
+  
+  
+  
+  
+  
+  
+  
   
