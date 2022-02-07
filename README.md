@@ -1,5 +1,5 @@
 # OOP_CPP
-this repo is made to help teaching Object-oriented programming (OOP) at Eötvös Loránd University.<br/>
+This repo is made to help teaching Object-oriented programming (OOP) at Eötvös Loránd University.<br/>
 <h1>Course Requirements </h1>
 This subject will have:<br/>
 <ul>
@@ -10,4 +10,4 @@ This subject will have:<br/>
   <li> 2 paper-based tests (one can be retaken), grading: 0-5,both paper-based tests has to be passed (at least mark 2) </li>
   <li>2 computer-based tests (one can be retaken), grading: 0-5,both computer-based tests has to be passed (at least mark 2)</li>
   </ul>
-  final grade: 2*sum of the first two assignments+third assignment+sum of the big tests) / 7
+  <b>final grade:</b> 2*sum of the first two assignments+third assignment+sum of the big tests) / 7
