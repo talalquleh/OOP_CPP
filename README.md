@@ -1,5 +1,11 @@
 # OOP_CPP
 This repo is made to help teaching Object-oriented programming (OOP) @ Eötvös Loránd University.<br/>
+<h1>Course Summary</h1>
+Concept of datatype, implementation of custom type with class in C++. Concept of object and class. Features of object-oriented programming. Instantiation of classes.<br/>
+Classification of datatypes based on their structure. Collections and their processing. Concept of enumeration. Standard enumerators. Algorithmic patterns on enumerators. Automatic unit testing. <br/>
+UML object and class diagram. Concept of dependency, association, aggregation, composition, inheritance, and their implementation in C++. Planning with UML class diagrams. Some famous design patterns (template method, bridge, visitor, strategy, singleton).<br/>
+Reusability of the object-oriented code. Solution of problems based on a reusable template class library.<br/>
+UML communication diagram, sequence diagram, state machine diagram. Implementation of parallel activities of objects. Handling of asynchronous and synchronous messages.<br/>
 <h1>Course Requirements </h1>
 This subject will have:<br/>
 <ul>
