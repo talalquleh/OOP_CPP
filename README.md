@@ -1,5 +1,5 @@
 # OOP_CPP
-This is a repo made to help teaching Object-oriented programming (OOP) @ Eötvös Loránd University.<br/>
+This is a repo made to help teaching Object-oriented programming (OOP) @ Eötvös Loránd University-spring semester(2021/2022).<br/>
 <h1>Course Summary</h1>
 Concept of datatype, implementation of custom type with class in C++. Concept of object and class. Features of object-oriented programming. Instantiation of classes.<br/>
 Classification of datatypes based on their structure. Collections and their processing. Concept of enumeration. Standard enumerators. Algorithmic patterns on enumerators. Automatic unit testing. <br/>
@@ -16,6 +16,7 @@ This subject will have:<br/>
   <li>2 Computer-based tests (one can be retaken), grading: 0-5,both computer-based tests has to be passed (at least mark 2)</li>
   </ul>
   Final grade: 2*sum of the first two assignments+third assignment+sum of the big tests) / 7 <br/>
+  course official website : https://people.inf.elte.hu/treszka/oktatase.html <br/>
   
   <h2>Classes</h2>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
