@@ -16,7 +16,7 @@ This subject will have:<br/>
   <li>2 Computer-based tests (one can be retaken), grading: 0-5,both computer-based tests has to be passed (at least mark 2)</li>
   </ul>
   Final grade: 2*sum of the first two assignments+third assignment+sum of the big tests) / 7 <br/>
-  course official website : https://people.inf.elte.hu/treszka/oktatase.html <br/>
+  Course official website : https://people.inf.elte.hu/treszka/oktatase.html <br/>
   
   <h2>Classes</h2>
   Classes: 2-hour lecture, 2-hour practice, 1-hour lab, and 1-hour consultation per week <br/>
