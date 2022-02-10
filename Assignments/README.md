@@ -1,1 +1,1 @@
-List of course's assigments.
+Lists of course's assigments.
