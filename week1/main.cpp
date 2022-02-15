@@ -7,7 +7,7 @@ using namespace std;
 
 bool readFile(vector<int>&x,const string &fileName);
 bool condMaxSearch(const vector<int>&x, int &max, int &ind);
-bool condMaxSearchFromFile(int &max,const string fileName);
+bool condMaxSearchFromFile(int &max,const string &fileName);
 
 
 
@@ -106,7 +106,7 @@ bool condMaxSearch(const vector<int>&x, int &max, int &ind)
 
 }
 //second approach
-bool condMaxSearchFromFile(int &max,const string fileName){
+bool condMaxSearchFromFile(int &max,const string &fileName){
 
     fstream f(fileName);
     bool L = false;
