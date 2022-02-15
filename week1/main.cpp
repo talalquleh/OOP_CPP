@@ -7,7 +7,7 @@ using namespace std;
 
 bool readFile(vector<int>&x,const string &fileName);
 bool condMaxSearch(const vector<int>&x, int &max, int &ind);
-bool condMaxSearchFromFile(vector<int>&x, int &max, int &ind,const string fileName);
+bool condMaxSearchFromFile(int &max,const string fileName);
 
 
 
@@ -29,7 +29,7 @@ int main()
             cout<<"no valley is matching the search "<<endl;
         }
     cout<<"second approach----------"<<endl;
-        if(condMaxSearchFromFile(x,max,ind,fileName)){
+        if(condMaxSearchFromFile(max,fileName)){
         cout<<"highest valley is " << max<<endl;
 
         }else{
@@ -106,7 +106,7 @@ bool condMaxSearch(const vector<int>&x, int &max, int &ind)
 
 }
 //second approach
-bool condMaxSearchFromFile(vector<int>&x, int &max, int &ind,const string fileName){
+bool condMaxSearchFromFile(int &max,const string fileName){
 
     fstream f(fileName);
     bool L = false;
