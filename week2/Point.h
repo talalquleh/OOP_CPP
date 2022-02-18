@@ -19,7 +19,7 @@ class Point
 
 
             }
-            //constructor -> constructs Objects
+            //constructor -> constructs objects
             //object-> instance of a class
         double distance(const Point &p) const {
             return sqrt(pow(_x-p._x,2) + pow(_y-p._y,2));
