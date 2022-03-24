@@ -1,0 +1,6 @@
+Carl bear 1
+Carl rabbit 1
+Joseph rabbit 2
+Steve deer 100
+Steve bear 300
+
