@@ -1,0 +1,7 @@
+Pear 1.1
+Bread 0.5
+Pear 1.2
+Apple 0.3
+Apple 1.5
+Vodka 10
+Cola 1.3
