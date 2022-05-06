@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1588258006 source:c:\teri\elte\oktatás\oep\11\beststudentab\main.cpp
+	<iostream>
+	"library/maxsearch.hpp"
+	"library/summation.hpp"
+	"library/seqinfileenumerator.hpp"
+
+1502814430 c:\teri\elte\oktatás\oep\11\beststudentab\library\enumerator.hpp
+
+1547545600 c:\teri\elte\oktatás\oep\11\beststudentab\library\maxsearch.hpp
+	"procedure.hpp"
+
+1555652084 c:\teri\elte\oktatás\oep\11\beststudentab\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1587722836 c:\teri\elte\oktatás\oep\11\beststudentab\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1535999580 c:\teri\elte\oktatás\oep\11\beststudentab\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
