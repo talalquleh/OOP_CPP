@@ -1,6 +1,6 @@
 Alan 2
 Alan 5
-Dick 1
-Dick 1
-Dick 5
+chris 5
+chris 1
+chris 5
 John 2

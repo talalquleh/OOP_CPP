@@ -6,14 +6,6 @@
 #include "library/seqinfileenumerator.hpp"
 #include "library/stringstreamenumerator.hpp"
 
-/// Fájlban: hallgató egy szavas neve+tárgy egy szavas neve+(komment,jegy) párosok, amiket a hallgató abból a tárgyból szerzett
-/// egy hallgatóhoz több tárgy is tartozik
-/// a fájl hallgatók szerint rendezett
-
-/// Kérdés: Melyik hallgató végezte el a legkevesebb tárgyat (minden jegye legalább 2)?
-/// Én ezt úgy oldottam meg, hogy megszámoltam azokat a tárgyakat, ahol minden jegy leaglább kettes, majd egy minimum a darabszámra (opt. lin. ker.+ számlálás + min. ker.).
-/// Más megoldás is lehetséges, de ebben 3 fajta tételre is rá lehet nézni.
-
 using namespace std;
 
 struct Mark
@@ -110,7 +102,7 @@ int main()
         StudentEnumerator stenor("input.txt");
         pr.addEnumerator(&stenor);
         pr.run();
-        cout << "The students who passed the least courses: "<< pr.optElem().name <<" ("<<pr.opt()<<" courses).\n";
+        cout << "The students who passed the least courses: "<< pr.optElem().name <<" ("<<pr.opt()<<" courses passed).\n";
     }
     catch (SeqInFileEnumerator<Course>::Exceptions exc)
     {

@@ -4,24 +4,27 @@
 #include "library/maxsearch.hpp"
 #include "library/counting.hpp"
 #include "library/selection.hpp"
-
-/// Egy repülõ azonos idõközönként tengerszint feletti méréseket végez az óceán fölött.
-/// Keressük a leghosszabb mért sziget hosszát.
-
 using namespace std;
 
-class CrossingSee : public Selection<int> /// keressük az elsõ pozitív mérést
+/*
+
+Task Descritpion:
+an island is a consecutive numbers in an input file , and water is represented by 0 to seprate the islands,
+give the longest island among them, and indicate its length
+
+*/
+class CrossingSee : public Selection<int> 
 {
 protected:
-    void first() override {} /// a fájl már meg van kezdve
+    void first() override {} 
     bool cond(const int &e) const override { return _enor->end() || e != 0; }
 };
 
-class IslandLength : public Counting<int> /// mérjük egy sziget hosszát
+class IslandLength : public Counting<int> 
 {
 protected:
-    void first() override {} /// a fájl már meg van kezdve
-    bool whileCond(const int &e) const override { return e > 0; } /// kiegészítõ leállási feltétel
+    void first() override {} 
+    bool whileCond(const int &e) const override { return e > 0; } 
 };
 
 struct Island
@@ -30,7 +33,7 @@ struct Island
 	int no;
 };
 
-class IslandEnumerator : public Enumerator<Island> /// felsorolja a szigetek hosszát
+class IslandEnumerator : public Enumerator<Island> 
 {
 private:
     SeqInFileEnumerator<int> *_f;
@@ -49,20 +52,20 @@ public:
 
 void IslandEnumerator::next()
 {
-    CrossingSee pr1; /// megkeresi az elsõ szigetet (ha van)
+    CrossingSee pr1; 
     pr1.addEnumerator(_f);
     pr1.run();
 
-    if( (_end = _f->end()) ) return; /// és ha nincs vége a fájlnak
+    if( (_end = _f->end()) ) return; 
 
 	++_island.no;
-    IslandLength pr2; /// megszámolja a sziget hosszát
+    IslandLength pr2; 
     pr2.addEnumerator(_f);
     pr2.run();
     _island.length = pr2.result();
 }
 
-class MaxIsland : public MaxSearch<Island,int> /// Maxker a szigethosszakra
+class MaxIsland : public MaxSearch<Island,int> 
 {
 protected:
     int func(const Island &e) const { return e.length; }

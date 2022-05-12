@@ -6,24 +6,39 @@
 
 using namespace std;
 
+/*
+given an input file containing name of students,and each subjects, every grade is   is stored in one line
+,the input file is order by student's name.
+give the student with the lowest average. 
+
+*/
+
+
 struct Mark
 {
     string name;
     int mark;
-    friend istream& operator>>(istream &is, Mark &m);
+    friend istream &operator>>(istream &is, Mark &m);
 };
 
-istream& operator>>(istream &is, Mark &m)
+istream &operator>>(istream &is, Mark &m)
 {
     is >> m.name >> m.mark;
     return is;
 }
 
-struct Result {
+struct Student
+{
+    string name;
+    double avr;
+};
+
+struct Result
+{
     int sum;
     int count;
 
-    Result(){}
+    Result() {}
     Result(int s, int c) : sum(s), count(c) {}
 };
 
@@ -31,8 +46,10 @@ class Average : public Summation<Mark, Result>
 {
 private:
     string _name;
+
 public:
     Average(const string &name) : _name(name) {}
+
 protected:
     Result func(const Mark &e) const override { return Result(e.mark, 1); }
     Result neutral() const override { return Result(0, 0); }
@@ -41,22 +58,21 @@ protected:
     void first() override {}
 };
 
-struct Student
-{
-    string name;
-    double avr;
-};
-
 class StudentEnumerator : public Enumerator<Student>
 {
 private:
-    SeqInFileEnumerator<Mark>* _f;
+    SeqInFileEnumerator<Mark> *_f;
     Student _student;
     bool _end;
+
 public:
     StudentEnumerator(const string &fname) { _f = new SeqInFileEnumerator<Mark>(fname); }
     ~StudentEnumerator() { delete _f; }
-    void first() override { _f->first(); next(); }
+    void first() override
+    {
+        _f->first();
+        next();
+    }
     void next() override;
     Student current() const override { return _student; }
     bool end() const override { return _end; }
@@ -64,30 +80,32 @@ public:
 
 void StudentEnumerator::next()
 {
-    if((_end = _f->end())) return;
+    if ((_end = _f->end()))
+        return;
     _student.name = _f->current().name;
     Average pr(_student.name);
     pr.addEnumerator(_f);
 
     pr.run();
 
-    if(pr.result().count > 0) _student.avr = double(pr.result().sum) / pr.result().count;
-    else _student.avr = 0.0;
+    if (pr.result().count > 0)
+        _student.avr = double(pr.result().sum) / pr.result().count;
+    else
+        _student.avr = 0.0;
 }
 
-class BestStudent : public MaxSearch<Student,double>
+class BestStudent : public MaxSearch<Student, double>
 {
 protected:
     double func(const Student &e) const override { return e.avr; }
 };
-
 
 int main()
 {
     try
     {
         BestStudent pr;
-        StudentEnumerator myenor("empty.txt");
+        StudentEnumerator myenor("input.txt");
         pr.addEnumerator(&myenor);
 
         pr.run();
@@ -103,6 +121,3 @@ int main()
     }
     return 0;
 }
-
-
-

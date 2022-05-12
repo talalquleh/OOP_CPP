@@ -1,0 +1,5 @@
+given an input file , each line contains name of a student 
+, and a course followed by assessments names and grades (arbitrary number)
+find the student with the least number of passed courses,passing grade is at least 2.
+student fail the course if any of his assessments is not passed.
+note:file is ordered by student's name
